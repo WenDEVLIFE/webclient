@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{base :: layout(title='My College Journey - Student Portfolio', content=~{::section})}">
+<body>
+    <section>
+        <div class="text-container">
+            <h2 class="section-title">My College Journey</h2>
+            
+            <div class="journey-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Subject Excellence: Object-Oriented Programming</h3>
+                        <p>Diving into OOP principles helped me understand the blueprint of modern software design. It’s where my passion for architecture began.</p>
+                        <img src="/images/journey1.jpg" alt="Kenth's OOP class experience">
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Memorable Class: System Integration</h3>
+                        <p>Learning how disparate systems communicate was a breakthrough moment for me. It opened my eyes to the scale of modern IT infrastructure.</p>
+                        <!-- Reusing images or using placeholders if journey2/3 are missing -->
+                        <img src="/images/gallery1.jpg" alt="Campus event">
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Facing Challenges: Advanced Logic</h3>
+                        <p>Overcoming the complexity of low-level programming was my biggest challenge. It taught me persistence and attention to detail.</p>
+                        <img src="/images/gallery2.jpg" alt="Late night study session">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{base :: layout(title='About Me - Student Portfolio', content=~{::section})}">
+<body>
+    <section>
+        <div class="text-container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="bio-text">
+                    <h3>My Story</h3>
+                    <p>I'm <strong>Aeron John G. Santos</strong>, a 20-year-old BSIT-2B student. My fascination with technology began at a young age, leading me to pursue a degree where I can merge logic with digital creativity.</p>
+                    <p>I chose BSIT because it empowers me to build solutions that solve real problems. The constant evolution of the tech landscape keeps me motivated to learn more every day.</p>
+                    
+                    <h3 style="margin-top: 2rem;">My Goals</h3>
+                    <p>As an IT student, my goal is to master full-stack development and contribute to innovative projects that make a positive impact on society. I strive for excellence in every line of code I write.</p>
+                </div>
+                <div class="interests-cards">
+                    <div class="interest-card">
+                        <img src="/images/hobby1.jpg" alt="Studying for exams">
+                        <div class="card-content">
+                            <h4>Studying</h4>
+                            <p>Dedication to mastering complex IT concepts.</p>
+                        </div>
+                    </div>
+                    <div class="interest-card">
+                        <img src="/images/hobby2.jpg" alt="Campus moments">
+                        <div class="card-content">
+                            <h4>Campus Moments</h4>
+                            <p>Building connections and sharing learning experiences.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

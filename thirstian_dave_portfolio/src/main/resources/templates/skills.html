@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{base :: layout(title='Skills and Interests - Student Portfolio', content=~{::section})}">
+<body>
+    <section>
+        <div class="text-container">
+            <h2 class="section-title">Skills & Interests</h2>
+            
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <span class="skill-icon">💻</span>
+                    <h4>Programming</h4>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-icon">🌐</span>
+                    <h4>Web Development</h4>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-icon">📊</span>
+                    <h4>Database Management</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="interests-section">
+        <div class="text-container">
+            <h2 class="section-title">Personal Interest</h2>
+            <div class="interests-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+                <div class="interest-card">
+                    <h4 style="color: var(--accent-color); margin-bottom: 1rem;">🎬 Watching Movies</h4>
+                    <p style="color: var(--text-secondary);">Enjoying cinematic stories for relaxation and inspiration.</p>
+                </div>
+                <div class="interest-card">
+                    <h4 style="color: var(--accent-color); margin-bottom: 1rem;">🎮 Playing Games</h4>
+                    <p style="color: var(--text-secondary);">Engaging in digital challenges and competitive fun.</p>
+                </div>
+                <div class="interest-card">
+                    <h4 style="color: var(--accent-color); margin-bottom: 1rem;">🎧 Listening to Music</h4>
+                    <p style="color: var(--text-secondary);">Setting the mood for productivity and relaxation through sound.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

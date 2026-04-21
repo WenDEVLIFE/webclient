@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{base :: layout(title='Home - Student Portfolio', content=~{::section})}">
+<body>
+    <section>
+        <div class="text-container hero">
+            <div class="hero-content">
+                <p class="welcome-text" style="color: var(--accent-color); font-weight: 700; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 1rem;">// STUDENT PORTFOLIO</p>
+                <h1>HI, I'M <br><span style="padding: 10px; background: linear-gradient(135deg, var(--primary-color), var(--accent-color)); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">AERON JOHN</span></h1>
+                <p>A 20-year-old BSIT-2B student at our university, passionate about creating modern digital experiences and exploring the world of technology.</p>
+                <div class="cta">
+                    <a href="/about" class="btn">Explore My Life</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="/images/profile.jpg" alt="Profile Photo" class="profile-img">
+            </div>
+        </div>
+    </section>
+</body>
+</html>

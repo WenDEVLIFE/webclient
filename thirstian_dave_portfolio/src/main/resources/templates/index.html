@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+    th:replace="~{base :: layout(title='Home - Student Portfolio', content=~{::section})}">
+
+<body>
+    <section>
+        <div class="text-container hero">
+            <div class="hero-content">
+                <p class="welcome-text"
+                    style="color: var(--accent-color); font-weight: 700; letter-spacing: 2px; margin-bottom: 1rem;">//
+                    STUDENT PORTFOLIO</p>
+                <h1>THRISTAN DAVE<br><span style="color: var(--accent-color);">CARMONA</span></h1>
+                <p>A 23-year-old BSIT-2B student. Passionate about software architecture, system integration, and
+                    building modern digital solutions.</p>
+                <div class="cta">
+                    <a href="/about" class="btn">DISCOVER MY LIFE</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="/images/boss.jpg" alt="Thristan's Profile" class="profile-img">
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

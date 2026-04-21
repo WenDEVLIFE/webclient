@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{base :: layout(title='Home - Student Portfolio', content=~{::section})}">
+<body>
+    <section>
+        <div class="text-container hero">
+            <div class="hero-content">
+                <p class="welcome-text" style="color: var(--accent-color); font-weight: 700; letter-spacing: 5px; margin-bottom: 2rem; opacity: 0.8;">[ STATUS: ACTIVE ]</p>
+                <h1>KENTH BRYLL<br><span style="color: var(--primary-color);">MANALO</span></h1>
+                <p>A 19-year-old BSIT-2B student. Building technology with precision and exploring the future of software development.</p>
+                <div class="cta">
+                    <a href="/about" class="btn">DISCOVER MORE</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="/images/profile.png" alt="Kenth's Profile" class="profile-img">
+            </div>
+        </div>
+    </section>
+</body>
+</html>

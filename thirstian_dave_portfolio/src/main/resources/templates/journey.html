@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{base :: layout(title='My College Journey - Student Portfolio', content=~{::section})}">
+<body>
+    <section>
+        <div class="text-container">
+            <h2 class="section-title">My College Journey</h2>
+            
+            <div class="journey-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Subject Mastery: Networking</h3>
+                        <p>Understanding how data flows across the globe fascinated me. It's the backbone of everything we do in IT.</p>
+                        <img src="/images/journey1.jpg" alt="Networking lab">
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Memorable Experience: Project Defense</h3>
+                        <p>Presenting our integrated system after months of hard work was the most rewarding moment of my college life so far.</p>
+                        <img src="/images/journey2.jpg" alt="Team presentation">
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>The Technical Challenge: App Development</h3>
+                        <p>Learning the intricacies of mobile development was tough, but it taught me persistence and the importance of user-centric design.</p>
+                        <img src="/images/journey3.jpg" alt="Late night session">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

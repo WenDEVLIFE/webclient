@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{base :: layout(title='About Me - Student Portfolio', content=~{::section})}">
+<body>
+    <section>
+        <div class="text-container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="bio-text">
+                    <h3>My Story</h3>
+                    <p>Hi, I’m <strong>Kenth Bryll E. Manalo</strong>, a BSIT student. I’m someone who’s really interested in technology, especially how websites and systems actually work behind the scenes.</p>
+                    <p>College life has been a mix of fun and stress for me. I’m still learning a lot about programming and web development, and honestly, I don’t know everything yet—but I’m trying my best to improve step by step.</p>
+                    <p>I also enjoy group activities because I get to work with other people, share ideas, and learn things I wouldn’t figure out on my own. Even though college can get overwhelming sometimes, I just keep going and try to enjoy the process.</p>
+                    
+                    <h3 style="margin-top: 2rem;">My Goals (As an IT Student)</h3>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+                        <div>
+                            <h4 style="color: var(--accent-color); margin-bottom: 0.5rem;">Short-term:</h4>
+                            <ul style="list-style: none; color: var(--text-secondary);">
+                                <li>• Learn more about Java, HTML, CSS, and JavaScript</li>
+                                <li>• Improve my coding skills step by step</li>
+                                <li>• Finish my school projects properly and on time</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 style="color: var(--accent-color); margin-bottom: 0.5rem;">Long-term:</h4>
+                            <ul style="list-style: none; color: var(--text-secondary);">
+                                <li>• Become a web or software developer someday</li>
+                                <li>• Work in a tech company where I can grow</li>
+                                <li>• Build my own system or application</li>
+                                <li>• Help my family through my career</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="interests-cards">
+                    <div class="interest-card">
+                        <img src="/images/hobby1.jpg" alt="Collaborative Study">
+                        <div class="card-content">
+                            <h4>Studying</h4>
+                            <p>Engaging in deep technical research and peer learning.</p>
+                        </div>
+                    </div>
+                    <div class="interest-card">
+                        <img src="/images/hobby2.jpg" alt="Campus Life">
+                        <div class="card-content">
+                            <h4>Campus Moments</h4>
+                            <p>Exchanging ideas and building a strong tech community.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

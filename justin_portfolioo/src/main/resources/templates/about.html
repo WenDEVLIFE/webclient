@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{base :: layout(title='About Me - Student Portfolio', content=~{::section})}">
+<body>
+    <section>
+        <div class="text-container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="bio-text">
+                    <h3>About Myself</h3>
+                    <p>I am <strong>Justin Custodio</strong>, an IT student. I like technology and learning how software and systems work.</p>
+                    
+                    <h3 style="margin-top: 2rem;">My Goal</h3>
+                    <p>My goal is to improve my skills and become a successful IT professional someday.</p>
+                </div>
+                <div class="interests-cards">
+                    <div class="interest-card">
+                        <img src="/images/hobby1.jpg" alt="Collaborative Study">
+                        <div class="card-content">
+                            <h4>Studying</h4>
+                            <p>Deep dives into programming logic and data structures.</p>
+                        </div>
+                    </div>
+                    <div class="interest-card">
+                        <img src="/images/gallery3.jpg" alt="Campus Life">
+                        <div class="card-content">
+                            <h4>Campus Moments</h4>
+                            <p>Sharing knowledge and experiences with my BSIT-2B peers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

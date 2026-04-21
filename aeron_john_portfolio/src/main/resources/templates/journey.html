@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{base :: layout(title='My College Journey - Student Portfolio', content=~{::section})}">
+<body>
+    <section>
+        <div class="text-container">
+            <h2 class="section-title">My College Journey</h2>
+            
+            <div class="journey-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Favorite Subject: Web Development</h3>
+                        <p>I find Web Development incredibly rewarding because it allows me to see immediate results from my code. Bridging the gap between design and functionality is my passion.</p>
+                        <img src="/images/journey1.jpg" alt="Web Development student project">
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Memorable Experience: Campus Collaboration</h3>
+                        <p>Collaborating with my classmates on group projects has been one of the most memorable parts of my college life. It’s where we learn to communicate and solve problems together.</p>
+                        <img src="/images/journey2.jpg" alt="Group activity in computer lab">
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Biggest Challenge: Mastery of Logic</h3>
+                        <p>Mastering complex data structures and algorithms was a significant challenge initially. However, through persistence and late-night study sessions, I developed a deeper understanding of software logic.</p>
+                        <img src="/images/journey3.jpg" alt="Studying complex algorithms">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

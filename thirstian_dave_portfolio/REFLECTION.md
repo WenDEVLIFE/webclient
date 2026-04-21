@@ -1,0 +1,10 @@
+# Project Reflection: My Student Life Portfolio
+
+## What did you enjoy most about creating your portfolio?
+The aspect I enjoyed most about creating this portfolio was the opportunity to blend technical implementation with creative storytelling. Using Spring Boot and Thymeleaf allowed me to build a structured, professional backend while having the freedom to design a vibrant, modern frontend from scratch. I particularly loved implementing the subtle animations and hover effects in the gallery and navigation; these small details transform a simple website into an engaging experience that feels "alive." It was rewarding to see my student journey take shape visually through the timeline and photo grid.
+
+## What did learn from this activity?
+This activity reinforced my understanding of the Spring Boot ecosystem, specifically how to manage routing and template engines like Thymeleaf. I learned how to create a consistent design language across multiple pages using a base layout fragment, which significantly improved development efficiency. Moreover, I deepened my skills in responsive web design, ensuring that my portfolio looks premium on both desktop and mobile devices. Handling assets and integrating them into a Java project also taught me best practices for organizing resources in a professional web application.
+
+## How does this portfolio represent you as a student?
+This portfolio represents me as a BSIT student who is not only technically capable but also detail-oriented and creative. Each page reflects a different facet of my journey: the Journey page shows my academic resilience and growth, the Skills page highlights my dedication to mastering core technologies, and the Gallery captures the collaborative spirit of my campus life. The clean, modern design mirrors my professional aspirations in the IT industry, demonstrating that I value both functionality and user experience. Overall, it tells the story of a student who is eager to learn, build, and contribute to the technological landscape.

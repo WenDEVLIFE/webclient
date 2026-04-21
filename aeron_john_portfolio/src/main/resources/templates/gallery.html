@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{base :: layout(title='Photo Gallery - Student Portfolio', content=~{::section})}">
+<body>
+    <section>
+        <div class="text-container">
+            <h2 class="section-title">Photo Gallery</h2>
+            <p style="text-align: center; color: var(--text-secondary); margin-bottom: 3rem;">Capturing moments from my student life and beyond.</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="/images/gallery1.jpg" alt="Lab session">
+                    <div class="gallery-caption">
+                        <p>"Working on our programming project in the computer lab"</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="/images/gallery2.jpg" alt="Coding night">
+                    <div class="gallery-caption">
+                        <p>"Late night coding session for the final project"</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="/images/gallery3.jpg" alt="Presentation">
+                    <div class="gallery-caption">
+                        <p>"Our group class presentation on software design"</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="/images/gallery4.jpg" alt="Study group">
+                    <div class="gallery-caption">
+                        <p>"Collaborative learning with my BSIT blockmates"</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="/images/gallery5.jpg" alt="Programming">
+                    <div class="gallery-caption">
+                        <p>"Diving deep into Java and Spring Boot"</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="/images/gallery6.jpg" alt="Campus">
+                    <div class="gallery-caption">
+                        <p>"Enjoying the campus atmosphere between classes"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

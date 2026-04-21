@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{base :: layout(title='About Me - Student Portfolio', content=~{::section})}">
+<body>
+    <section>
+        <div class="text-container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="bio-text">
+                    <h3>About Myself</h3>
+                    <p>I am <strong>John Michael Hilario</strong>, an IT student. I am passionate about technology and software development, and I enjoy exploring how software and systems work behind the scenes.</p>
+                    
+                    <h3 style="margin-top: 2rem;">My Goal</h3>
+                    <p>My goal is to improve my technical skills and become a successful IT professional in the future.</p>
+                </div>
+                <div class="interests-cards">
+                    <div class="interest-card">
+                        <img src="/images/hobby1.jpg" alt="Coding moment">
+                        <div class="card-content">
+                            <h4>Coding</h4>
+                            <p>Exploring new languages and frameworks.</p>
+                        </div>
+                    </div>
+                    <div class="interest-card">
+                        <img src="/images/hobby2.jpg" alt="Campus moment">
+                        <div class="card-content">
+                            <h4>University Life</h4>
+                            <p>Engaging in campus activities and collaborative learning.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

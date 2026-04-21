@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{base :: layout(title='Photo Gallery - Student Portfolio', content=~{::section})}">
+<body>
+    <section>
+        <div class="text-container">
+            <h2 class="section-title">Photo Gallery</h2>
+            <p style="text-align: center; color: var(--text-secondary); margin-bottom: 3rem;">Capturing moments from my student life and beyond.</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="/images/gallery1.jpg" alt="Lab immersion">
+                    <div class="gallery-caption">
+                        <p>"Deep concentration during our IT intensive laboratory sessions"</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="/images/gallery2.jpg" alt="Project collaboration">
+                    <div class="gallery-caption">
+                        <p>"Strategizing with my BSIT-2B classmates on our midterm project"</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="/images/gallery3.jpg" alt="Campus events">
+                    <div class="gallery-caption">
+                        <p>"Participating in school assemblies and tech seminars"</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="/images/gallery4.jpg" alt="Peer learning">
+                    <div class="gallery-caption">
+                        <p>"Knowledge sharing during our group study sessions"</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="/images/gallery5.jpg" alt="Final defense">
+                    <div class="gallery-caption">
+                        <p>"A moment of joy after a successful project presentation"</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="/images/gallery6.jpg" alt="Classroom moments">
+                    <div class="gallery-caption">
+                        <p>"In-class discussions about the latest trends in software innovation"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
